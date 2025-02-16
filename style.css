@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e63946;
+}
+
+/* Default Theme (Dark Mode) */
+body {
+    background-color: #111;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    background: linear-gradient(to right, #111, #222);
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5555;
+}
+
+/* Button Styling */
+button {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Light Mode Theme */
+.light-mode {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.light-mode nav {
+    background: linear-gradient(to right, #fff, #ddd);
+}
+
+.light-mode nav ul li a {
+    color: black;
+}
+
+.light-mode nav ul li a:hover {
+    color: #ff5555;
+}
+
+/* Light Mode Card Styling */
+.light-mode .bg-gray-700 {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Card Styling */
+.bg-gray-700 {
+    background-color: #222;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #111, #222);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Light Mode Footer */
+.light-mode footer {
+    background: linear-gradient(to right, #ddd, #ccc);
+    color: black;
+}
+
+
+/* Navbar */
+nav {
+    background: linear-gradient(to right, #111, #222);
+    transition: background 0.3s;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Dark Mode */
+.dark-mode nav {
+    background: linear-gradient(to right, #333, #444);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #0a0a0a 50%, #1f1f1f 100%);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #e63946;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #e63946;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff4d5a;
+}
+
+/* Sections */
+.about, .projects, .contact {
+    padding: 5rem 5%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-text {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Projects */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+    font-size: 0.9rem;
+}
